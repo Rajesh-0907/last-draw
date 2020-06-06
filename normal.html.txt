@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document 10</title>
+    <link rel="stylesheet" href="sample.css" />
+  </head>
+  <body>
+    <canvas id="canvas" width="340" height="700"></canvas>
+    <div id="container">
+      <div id="container1"></div>
+      <div id="score">
+        0
+      </div>
+      <div id="result">
+        your score is :
+      </div>
+      <div id="result1">
+        0
+      </div>
+      <div id="restart">
+        <img src="/images/restart.png" />
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
