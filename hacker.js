@@ -441,7 +441,7 @@ function rotate() {
 
 function gravity() {
   c = c - l;
-  l = l - 0.17;
+  l = l - 0.14;
   if (c > 500) c = 500;
 
   window.requestAnimationFrame(gravity);
